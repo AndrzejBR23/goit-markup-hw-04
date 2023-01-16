@@ -1,0 +1,218 @@
+:root {
+  --link_and_button_color: #2196f3;
+  --letters_and_logo_color_black: #212121;
+  --letters_and_logo_color_white: #ffffff;
+}
+body {
+  font-family: "Roboto";
+  background-color: var(--letters_and_logo_color_white);
+  color: var(--letters_and_logo_color_black);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+header {
+  border: 1px solid #ececec;
+}
+.logo-ws {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: var(--letters_and_logo_color_black);
+}
+.logo-color {
+  color: var(--link_and_button_color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--letters_and_logo_color_black);
+  display: inline-block;
+}
+.header-link:hover {
+  color: var(--link_and_button_color);
+}
+.header-kontakt > a {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-kontakt > a:hover {
+  color: var(--link_and_button_color);
+}
+.header-list > li {
+  display: inline-block;
+}
+.title-section {
+  background: #2f303a;
+  text-align: center;
+}
+.title-section > h1 {
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--letters_and_logo_color_white);
+  font-weight: 900;
+  white-space: pre-wrap;
+}
+.title-section > button {
+  width: 200px;
+  height: 50px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--letters_and_logo_color_white);
+  box-shadow: 0px 4px 4px var(--letters_and_logo_color_black);
+  border-radius: 4px;
+  background-color: var(--link_and_button_color);
+  cursor: pointer;
+}
+.Advantages > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: normal;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.adv-list {
+  display: inline-block;
+}
+.adv-list > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.adv-list > p {
+  width: 270px;
+  line-height: 1.71;
+  color: #757575;
+}
+.wwd-list {
+  display: inline-block;
+}
+.what-we-do > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.our-team {
+  display: inline-block;
+  text-align: center;
+  background-color: #f5f4fa;
+}
+.our-team > h2 {
+  padding-top: 94px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  display: inline-block;
+}
+.team-list > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-list > p {
+  font-size: 16px;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+footer {
+  background: #2f303a;
+  line-height: 24px;
+}
+footer > .logo-ws {
+  color: var(--letters_and_logo_color_white);
+}
+.map-address {
+  color: var(--letters_and_logo_color_white);
+}
+.contact-info {
+  color: #999999;
+}
+address {
+  font-style: normal;
+}
+address > ul {
+  list-style-type: none;
+}
+.footer-a-style {
+  display: block;
+  font-size: 14px;
+  line-height: 1.71;
+}
+address > a:hover {
+  color: var(--link_and_button_color);
+}
+.current {
+  color: var(--link_and_button_color);
+}
+
+/* ⬇ <<PORTFOLIO>> ⬇ */
+
+.title-button > h1 {
+  visibility: hidden;
+}
+.but-list {
+  display: inline-flex;
+}
+.but-list > button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: #f5f4fa;
+  color: var(--letters_and_logo_color_black);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+}
+.but-list > button:hover {
+  background-color: var(--link_and_button_color);
+  color: var(--letters_and_logo_color_white);
+}
+.portfolio-list {
+  font-weight: 700;
+  font-size: 18px;
+}
+.portf-list {
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+  text-align: left;
+  background-color: var(--letters_and_logo_color_white);
+  border: 1px solid #eeeeee;
+}
+.portf-list > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portf-list > p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
